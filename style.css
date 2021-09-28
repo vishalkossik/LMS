@@ -1,0 +1,25 @@
+div h1 {
+    background-color:green;
+    color:white;
+    text-align:center;
+}
+
+form label {
+    color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+form input[type=text], input[type=date], select {
+    display:block;
+    width:400px;
+    padding:5px;
+    margin-bottom: 12px;
+}
+
+form button {
+    background-color:green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
