@@ -10,7 +10,7 @@ form label {
     font-size: 11pt;
 }
 
-form input[type=text], input[type=date], select {
+form input[type=text], input[type=date], input[type=password], select {
     display:block;
     width:400px;
     padding:5px;
@@ -22,4 +22,32 @@ form button {
     color: white;
     border-radius: 5px;
     padding: 5px;
+}
+
+ul.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+li.nav {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111111;
+}
+
+.active {
+    background-color: green;
 }
